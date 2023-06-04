@@ -1,0 +1,288 @@
+body {
+	margin: 27px auto 0;
+	width: 1200px;
+	background: rgb(251,109,58);
+	background: linear-gradient(0deg, rgba(251,109,58,1) 25%, rgba(17,62,127,1) 100%);
+}
+
+h1 {
+	margin: 11px 0 11px;
+}
+
+h2, h3, h5, h6 {
+	margin: 0;
+}
+
+h4 {
+	margin-top: 0;
+	margin-bottom: 11px;
+}
+
+ol {
+	margin: 0;
+}
+
+hr {
+	margin: 0;
+	border-color: #FB6D3A;
+	border-width: 1px;
+}
+
+.main {
+	display: flex;
+	flex-direction: row-reverse;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	border-radius: 15px;
+	box-shadow: 0 0 35px black;
+}
+
+.main_content {
+	padding: 108px 217px 101px 101px;
+}
+
+/*Main content information*/
+
+.main_header_txt {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	margin-bottom: 19px;
+}
+
+.header_txt {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 27px;
+	margin: 0 auto 12px;
+}
+
+.small_txt_data {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	color: #A8A8A8;
+}
+
+.black_line {
+	color: black;
+}
+
+.main_txt_paragraph {
+	font-family: 'Montserrat';
+	ont-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	padding-left: 0px;
+	margin-bottom: 16px;
+	margin-left: 18.5px;
+}
+
+.main_orange_txt {
+	color: #FB6D3A;
+}
+
+/*Biography*/
+.biography_header_txt {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 45px;
+	line-height: 55px;
+}
+
+.biography_txt {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.advertisement {
+
+}
+
+/*Projects*/
+
+.projects {
+	margin-top: 40px;
+	margin-bottom: 51px;
+}
+
+.projects_header_txt {
+	margin: 0 auto 8px;
+}
+
+.projects_option {
+	font-weight: 1000;
+}
+
+.projects_option_txt {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.projects_link {
+	color: black;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.projects_link:hover {
+	color: #FB6D3A;
+	text-decoration: underline;
+}
+
+/*Education*/
+
+.education {
+	margin-top: 43px;
+}
+
+.education_txt {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	margin: 12px auto 11px;
+}
+
+.managment_header_txt {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	margin-bottom: 12px;
+}
+
+aside {
+	background-color: #1e2939;
+/*	box-shadow: 3px 0 3px -0.5px #FB6D3A;*/	
+	border-right-color: rgb(253,109,58);
+	border-right-width: 5px;
+	border-right-style: solid;
+	padding-top: 40px;
+	color: white;
+	border-top-left-radius: 13px;
+	border-bottom-left-radius: 13px;
+}
+
+.photo {
+	width: 300px;
+	height: 300px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.photo_me {
+	height: 300px;
+	width: 300px;
+	cursor: pointer;
+	transition: 0.7s;
+}
+
+.photo_me:hover {
+	height: 315px;
+	width: 315px;
+	position: absolute;
+	border-radius: 10px;
+	box-shadow: 0 0 20px black /*#FB6D3A*/;
+}
+
+.photo_symbol_block {
+	margin-top: 7px;
+	width: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 800;
+}
+
+.photo_symbol::before {
+ 	content: "☝️";
+}
+
+.photo_symbol::after {
+ 	content: "☝️";
+}
+
+/*Contacts*/
+
+.contacts {
+	padding-top: 51px;
+	padding-left: 40px;
+}
+
+.sidebar-title {
+	color: white;
+}
+
+.contacts-letters {
+	margin-right: 10px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.contacts-links {
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 24px;
+	opacity: 0.5;
+	color: white;
+}
+
+.contacts-links:hover {
+	color: #FB6D3A;
+}
+
+.skills {
+	padding-top: 47px;
+	padding-left: 40px;
+}
+
+.sidebar-list {
+	padding-left: 18px;
+	color: #FB6D3A;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.sidebar-list-text {
+	color: white;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+}
